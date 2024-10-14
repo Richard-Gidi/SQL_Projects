@@ -26,7 +26,7 @@ CREATE TABLE workers (
 );
 ```
 
-### Creating `quality_of_work` Table
+### 2. Creating `quality_of_work` Table
 
 ```sql
 CREATE TABLE quality_of_work (
@@ -36,7 +36,7 @@ CREATE TABLE quality_of_work (
     task_status TEXT
 );
 ```
-### Creating `task_deadline` Table
+### 3. Creating `task_deadline` Table
 
 ```sql
 CREATE TABLE task_deadline (
@@ -66,6 +66,7 @@ VALUES
     ("Firdaus Mohammed", 22, "Data Science", "Female", "Gbawe Topbase");
 ```
 
+### Inserting Data into the `quality_of_work` Table
 ```sql
 INSERT INTO quality_of_work (days_worked, hrs_worked, task_status) 
 VALUES 
@@ -75,6 +76,7 @@ VALUES
     (25, 12, "Pending");
 ```
 
+### Inserting Data into the 'task_deadline` Table
 ```sql
 INSERT INTO task_deadline (name, name_of_task, hrs_assigned) 
 VALUES 
