@@ -14,8 +14,8 @@ The **Salary Calculation App** is a SQL-based project designed to track and mana
 ## Database Schema
 
 ### 1. Workers Table (`workers`)
-
-```sql
+We create a table to accommodate basic worker information and declare the data types for each
+```sql 
 CREATE TABLE workers (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     name TEXT,
