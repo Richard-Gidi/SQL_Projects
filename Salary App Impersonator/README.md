@@ -27,7 +27,7 @@ CREATE TABLE workers (
 ```
 
 ### 2. Creating `quality_of_work` Table
-
+We create a table for the number of days worked, hours worked and whether or not they have completed their assigned task
 ```sql
 CREATE TABLE quality_of_work (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -37,7 +37,7 @@ CREATE TABLE quality_of_work (
 );
 ```
 ### 3. Creating `task_deadline` Table
-
+We create a table to contain information on the task assigned each worker and declare the data types for each
 ```sql
 CREATE TABLE task_deadline (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -46,6 +46,8 @@ CREATE TABLE task_deadline (
     hrs_assigned INTEGER
 );
 ```
+
+# Sample Data
 
 ### Inserting Data into the `workers` Table
 
