@@ -13,7 +13,7 @@ The main directory contains this README file, which provides an overview of the 
 Each project folder contains the following:
 
 - **`.pbix` File**: The Power BI file that contains the reports and visualizations for the project.
-- **`.sql`  File**: The SQL file that contains the analysis for the project.**: 
+- **`.sql`  File**: The SQL file that contains the analysis for the project.
 - **`README.md`**: A project-specific README file that provides detailed information about the analysis, objectives, and insights drawn from the data.
 
 
