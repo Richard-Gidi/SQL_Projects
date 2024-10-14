@@ -120,3 +120,40 @@ FROM workers a
 JOIN quality_of_work ON a.id = quality_of_work.id
 GROUP BY a.department;
 ```
+
+# POWER BI
+
+
+## Insights from The Best Company Ltd. Dashboard
+
+### Company Overview
+**The Best Company Ltd.** is a tech startup that actively promotes female participation in technology roles, resulting in a workforce that consists of more females than males. This commitment to diversity is reflected in the company's current structure, which is relatively small, with only 11 employees. 
+
+![image](https://github.com/user-attachments/assets/3678363d-6c48-45ce-99d1-ea8f90a272eb)
+
+
+### Workforce Composition
+- **Gender Representation**: The workforce includes 72.73% female employees (8 out of 11), emphasizing the company's initiative to empower women in tech.
+- **Departmental Distribution**: The largest team is in **Data Science** (4 personnel), which aligns with the company's focus on leveraging data-driven solutions. In contrast, there is only one **Data Analyst**, suggesting that the company prioritizes developing robust data science capabilities over broader analytical roles at this stage.
+
+### Salary Insights
+- The average salary for employees is currently on the lower end, a common scenario for startups that are still in the early stages of establishing their financial footing.
+- Notably, there is a correlation between age and salary, where older employees tend to earn more due to their accumulated experience, providing valuable insights that can drive the company's growth.
+
+![image](https://github.com/user-attachments/assets/d2dc41dc-cfad-46c3-b471-745b96cf2a70)
+
+
+### Hours Worked Analysis
+- **Data Analysis**: Although assigned only **4 hours** of work, analysts are putting in **8 hours**, indicating a strong work ethic and a commitment to completing their tasks. This overextension may lead to burnout if not addressed.
+- **Data Science**: Conversely, employees in data science are assigned **12.25 hours** but actually work **8.75 hours**, resulting in more **pending tasks**. This discrepancy may suggest inefficiencies or challenges within the department that need to be managed to improve productivity.
+
+### Task Insights
+- **Data Quality Control**: The highest hours worked (12 hours) in this area underscore the critical importance of data quality in ensuring the reliability of models and analyses. This focus on data integrity is essential for the company's commitment to building trustworthy solutions.
+- **Dashboard Maintenance**: With only **5 hours** spent on maintaining dashboards, it indicates that these tools are already well-established, allowing the team to allocate more time to higher-priority tasks like data quality and analysis.
+
+
+![image](https://github.com/user-attachments/assets/8b2653c6-dbc0-4231-b8f0-3d5f4446a220)
+
+
+### Conclusion
+In summary, The Best Company Ltd. is navigating the challenges of a startup environment while making strategic choices in workforce composition, salary structures, and task management. The focus on data quality and the empowerment of female employees in tech are commendable, setting a strong foundation for future growth and success.
