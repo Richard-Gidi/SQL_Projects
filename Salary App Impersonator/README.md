@@ -24,7 +24,7 @@ CREATE TABLE workers (
     gender TEXT,
     address TEXT(40)
 );
-
+```
 
 ### Creating `quality_of_work` Table
 
@@ -35,4 +35,4 @@ CREATE TABLE quality_of_work (
     hrs_worked INTEGER,
     task_status TEXT
 );
-
+```
