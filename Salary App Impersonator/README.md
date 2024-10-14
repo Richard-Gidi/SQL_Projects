@@ -36,3 +36,33 @@ CREATE TABLE quality_of_work (
     task_status TEXT
 );
 ```
+### Creating `task_deadline` Table
+
+```sql
+CREATE TABLE task_deadline (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name TEXT,
+    name_of_task TEXT,
+    hrs_assigned INTEGER
+);
+```
+
+### Inserting Data into the `workers` Table
+
+```sql
+INSERT INTO workers (name, age, department, gender, address) 
+VALUES 
+    ("Keren-Happuch Adu Yeboah", 45, "Data Engineering", "Female", "Nungua"),
+    ("Richard Gidi", 38, "Data Science", "Male", "Santor"),
+    ("Laura Eyi Kartey", 31, "Data Analysis", "Female", "Haatso"),
+    ("Isaac Annan", 61, "Data Science", "Male", "Winneba"),
+    ("Susana Ama Gatogo Abban", 33, "Data Engineering", "Female", "Ablekuma"),
+    ("Rabiatu Ibrahim", 38, "Data Science", "Female", "Madina"),
+    ("Dannette Kwanyo Zotorvie", 20, "Data Engineering", "Female", "Tema"),
+    ("Quartey Phoebe", 22, "Accounting", "Female", "West Legon"),
+    ("Ellen Essuamah Asante", 33, "Data Engineering", "Male", "Madina"),
+    ("Napoleon Quartey-Papafio", 38, "Accounting", "Male", "Osu"),
+    ("Samuel Osei Boadu", 20, "Marketing", "Female", "Kasoa"),
+    ("Firdaus Mohammed", 22, "Data Science", "Female", "Gbawe Topbase");
+```
+
