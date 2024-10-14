@@ -66,3 +66,53 @@ VALUES
     ("Firdaus Mohammed", 22, "Data Science", "Female", "Gbawe Topbase");
 ```
 
+```sql
+INSERT INTO quality_of_work (days_worked, hrs_worked, task_status) 
+VALUES 
+    (20, 10, "Completed"),
+    (15, 8, "Pending"),
+    -- Additional entries here
+    (25, 12, "Pending");
+```
+
+```sql
+INSERT INTO task_deadline (name, name_of_task, hrs_assigned) 
+VALUES 
+    ("Keren-Happuch Adu Yeboah", "Data and information visualization", 12),
+    ("Richard Gidi", "Clean dataset", 10),
+    -- Additional entries here
+    ("Firdaus Mohammed", "Overseeing data quality control", 12);
+```
+
+### Counting Workers, Departments, and Unique Addresses
+
+```sql
+SELECT COUNT(DISTINCT address), COUNT(name) AS total_workers, COUNT(DISTINCT department) 
+FROM workers;
+```
+
+### Finding Minimum and Maximum Worker Age
+
+```sql
+SELECT MIN(age) AS MIN_AGE, MAX(age) AS MAX_AGE 
+FROM workers;
+```
+
+### Calculating Average Hours to Finish Tasks by Department
+
+```sql
+SELECT department, AVG(hrs_worked) AS avg_hours_to_finish
+FROM quality_of_work
+JOIN workers ON quality_of_work.id = workers.id
+WHERE task_status = 'Completed'
+GROUP BY department;
+```
+
+### Calculating Average Salary for Each Department
+
+```sql
+SELECT a.department, AVG(hrs_worked * 13.53 * days_worked) AS AVERAGE_SALARY
+FROM workers a
+JOIN quality_of_work ON a.id = quality_of_work.id
+GROUP BY a.department;
+```
