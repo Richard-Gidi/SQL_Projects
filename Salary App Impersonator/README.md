@@ -25,3 +25,14 @@ CREATE TABLE workers (
     address TEXT(40)
 );
 
+
+### Creating `quality_of_work` Table
+
+```sql
+CREATE TABLE quality_of_work (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    days_worked INTEGER,
+    hrs_worked INTEGER,
+    task_status TEXT
+);
+
