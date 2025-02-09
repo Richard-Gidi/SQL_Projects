@@ -1,5 +1,5 @@
 ## Salary Calculation App ##
-
+	
 ## creating DataBase (i.e salary_payment_app)
 CREATE DATABASE salary_payment_app;
 USE salary_payment_app;
